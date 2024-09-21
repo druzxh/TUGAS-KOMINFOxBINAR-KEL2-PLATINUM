@@ -1,12 +1,12 @@
 # Sentiment Analysis Project
 
-API ini dibuat untuk melakukan analisis sentimen menggunakan model LSTM yang telah dilatih dan memproses data input berupa teks atau melalui unggahan file CSV. Berikut adalah langkah-langkah untuk menyiapkan lingkungan virtual dan menjalankan aplikasi ini.
+API ini dibuat untuk melakukan analisis sentimen menggunakan model LSTM dan Neural Network yang telah dilatih dan memproses data input berupa teks atau melalui unggahan file CSV. Berikut adalah langkah-langkah untuk menyiapkan lingkungan virtual dan menjalankan aplikasi ini.
 
 ## Link Download Model
 [Google Drive](https://drive.google.com/drive/folders/140FOjMRizgB3PHqLG7DtUuLZb_uGQrlE)
 
 ## Requirements
-- Python 3.8 or above
+- Python 3.8 or above 3.12 recommended
 - pip
 
 ## Langkah-langkah
