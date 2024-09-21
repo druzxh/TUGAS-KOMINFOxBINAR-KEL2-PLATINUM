@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Cache
+__pycache__/
+
+LSTM_Model/
+LSTM_Model2/
+NNN_Model/
+NNN_Model2/
+Preproc/
+
+.DS_Store
+
+.env
+
+lstm.h5
+nn_feature.pkl
+nn_model.pkl

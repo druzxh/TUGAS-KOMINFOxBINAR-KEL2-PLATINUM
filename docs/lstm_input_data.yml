@@ -1,0 +1,17 @@
+tags:
+  - LSTM - Input Text
+summary: Sentiment Analysis text input dengan LSTM.
+description: Text akan di analisis oleh model LSTM.
+parameters:
+  - name: lstm_text
+    in: formData
+    required: true
+    type: string
+    description: "Masukan text disini"
+responses:
+  '200':
+    description: Successfully
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error

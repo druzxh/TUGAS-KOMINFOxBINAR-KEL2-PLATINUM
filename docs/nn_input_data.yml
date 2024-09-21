@@ -1,0 +1,17 @@
+tags:
+  - NN - Input Text
+summary: Sentiment Analysis text input dengan Neural Network.
+description: Text akan di analisis oleh model Neural Network.
+parameters:
+  - name: nn_text
+    in: formData
+    required: true
+    type: string
+    description: "Masukan text disini"
+responses:
+  '200':
+    description: Successfully
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error

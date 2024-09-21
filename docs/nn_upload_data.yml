@@ -1,0 +1,16 @@
+tags:
+  - NN - Upload File
+summary: Sentiment Analysis file dengan Neural Network.
+description: File akan di analisis oleh model Neural Network.
+parameters:
+  - name: nn_upload
+    in: formData
+    required: true
+    type: file
+responses:
+  '200':
+    description: Successfully
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
